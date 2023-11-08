@@ -1,0 +1,16 @@
+export default {
+	LOGIN: '/api/login',
+	BOARD_LIST_CNT: '/api/pilot/board/articlesCnt',
+	BOARD_LIST: '/api/pilot/board/articles',
+	BOARD_DETAIL: '/api/pilot/board/article',
+	BOARD_CONTENT: '/api/pilot/board/articleCn',
+	BOARD_CREATE: '/api/pilot/board/articleCreate',
+	BOARD_UPDATE: '/api/pilot/board/articleUpdate',
+	BOARD_DELETE: '/api/pilot/board/articleDelete',
+	ATTACH_FILELIST: '/api/pilot/board/attachFileList',
+	ATTACH_FILEDELETE: '/api/pilot/board/atchFileDelete',
+	ATTACH_FILEMAPPING: '/api/pilot/board/atchFileMapping',
+	FILES: '/api/pilot/board/files',
+	ATTACH_FILEDOWNLOAD: '/api/pilot/board/download',
+	GET_P_KEY: 'api/pilot/pki/publickey',
+};

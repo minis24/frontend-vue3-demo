@@ -1,0 +1,42 @@
+// variables 사용
+@use 'vuetify/settings' with (
+  $input-font-size: 20px,
+	$text-field-input-padding-start: 20px,
+
+	// v-chip scss변수 셋팅-------------------
+	$chip-border-width: 3px,
+	$chip-border-color: red
+);
+//@use 'vuetify' with (
+//  $input-font-size: '20px',
+//);
+
+//$button-background: blue;
+$application-color: var(--vt-c-text-1);
+
+// v-text-field style ===================================================
+.v-text-field input {
+	font-size: 1.2em;
+}
+.v-field textarea {
+	font-size: 1.2em;
+}
+.v-text-field--filled > .v-input__control > .v-input__slot {
+	background: #ffffff;
+	border: 1px solid rgba(0, 0, 0, 0.38);
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+
+	&:before {
+			display: none;
+	}
+}
+.v-input--is-focused .v-input__slot {
+  border: 2px solid #005fcc !important;
+  border-bottom-color: rgba(0, 0, 0, 0.38) !important;
+}
+
+// 새로은 class 생성 =====================================================
+.my-btn {
+	background-color: greenyellow;
+}
